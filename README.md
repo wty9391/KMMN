@@ -66,7 +66,7 @@ The performance of all baselines can be found in `/result/baseline_report.csv`
 
 You can also find the running logs in these directories `/result/$advertiser/log/run_baselines`
 
-The code of DCL and DLF is forked from this [repository](https://github.com/rk2900/DLF).
+The code of DCL and DLF can be forked from this [repository](https://github.com/rk2900/DLF).
 
 
 
