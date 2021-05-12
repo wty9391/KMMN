@@ -5,6 +5,21 @@ For any problems, please report the issues here.
 
 ## Quirk Start
 
+### Requirements
+
+Our experimental platform's key configuration:
+* an Intel(R) Xeon(R) E5-2620 v4 CPU processor
+* a NVIDIA TITAN Xp GPU processor
+* 64 GB memory
+* Ubuntu 18.04 operating system
+* python 3.6
+* pytorch 1.3
+* cuda 10.1
+
+Required Python libraries are listed in `./requirements.txt`
+
+
+
 ### Prepare Dataset
 Before run the demo, please first check the GitHub project [make iPinYou data](https://github.com/wnzhang/make-ipinyou-data) for pre-processing the [iPinYou dataset](http://data.computational-advertising.org).
 Or you can download the processed dataset from this [link](https://pan.baidu.com/s/1bjeROrEuxouy9Mhfd1vrCw) with extracting code `h12c`.
@@ -24,21 +39,6 @@ KMMN
         |  criteo_attribution_dataset.tsv.gz
 ...
 ```
-
-### Requirements
-
-Our experimental platform's key configuration:
-* an Intel(R) Xeon(R) E5-2620 v4 CPU processor
-* a NVIDIA TITAN Xp GPU processor
-* 64 GB memory
-* Ubuntu 18.04 operating system
-* python 3.6
-* pytorch 1.3
-* cuda 10.1
-
-Required Python libraries are listed in `./requirements.txt`
-
-
 
 ### Encode Dataset
 Please run the following code to encode the dataset
